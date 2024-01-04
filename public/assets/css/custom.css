@@ -1,0 +1,108 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ *
+ */
+
+
+/*# sourceMappingURL=custom.css.map */
+
+
+.kbw-signature { width: 400px; height: 200px;}
+#sig canvas{
+    width: 100% !important;
+    height: auto;
+}
+
+
+/* #clock {
+	font-size: 50px;
+	background: -webkit-linear-gradient(#2b32b2, #1488cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+    font-weight: bold;
+}
+
+#calendar {
+	font-size: 20px;
+	background: -webkit-linear-gradient(#2dc200, #1488cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+} */
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    box-shadow: 0 0 20px rgb(187, 186, 186);
+    border-radius: 10px;
+  }
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+.btn-grad-cancel {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+    margin: 10px;
+    padding: 15px 22px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgb(187, 186, 186);
+    border-radius: 10px;
+  }
+
+.btn-grad-cancel:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+.car_black {
+    background-color: #000000 !important;
+}
+
+.car_white {
+    background-color: #ffffff !important;
+}
+
+.car_yellow {
+    background-color: #f3ef00 !important;
+}
+
+.car_red {
+    background-color: #ff1111 !important;
+}
+
+.car_silver {
+    background-color: #999595 !important;
+}
+
+.car_blue {
+    background-color: #0400f5 !important;
+}
+
+.car_all {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+
+
+
+
